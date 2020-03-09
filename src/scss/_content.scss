@@ -1,0 +1,34 @@
+.content {
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $secondary-color;
+    > * {
+      padding-left: 30px;
+    }
+
+    ul {
+      font-size: 1rem;
+      list-style-type: circle;
+      padding-left: 30px;
+      list-style-position: inside;
+    }
+    h1 {
+      font-size: 1rem;
+      -webkit-margin-before: 0;
+      padding-top: 40px;
+    }
+    p {
+      width: 55%;
+      min-width: 550px;
+      font-size: 1rem;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
